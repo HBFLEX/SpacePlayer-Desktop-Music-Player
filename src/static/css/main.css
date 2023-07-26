@@ -1,0 +1,108 @@
+html,
+body{
+	background-color: #302856;
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	overflow-x: hidden;
+	color: white;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+	border-radius: 20px;
+	background: linear-gradient(180deg, #302856, #208091);
+}
+
+::-webkit-scrollbar-track{
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #2854ae;
+	border-radius: 10px;
+}
+
+#alien-logo{
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	display: none;
+}
+
+.menu-header{
+	color: #e7e7e7;
+	font-weight: bolder;
+}
+
+.coverImage{
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.player{
+	position: absolute;
+	margin: 0;
+	bottom: 0;
+	width: 100%;
+	background: linear-gradient(180deg, #e5a918, #333);
+}
+
+.controls{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	column-gap: 8px;
+	padding: 0.5rem 2rem;
+}
+
+.player-control-btn{
+	background: transparent;
+	border: none;
+	color: white;
+}
+
+.track-progress{
+	width: 80%;
+	accent-color: #e5a918;
+}
+
+.track-progress::-webkit-slider-thumb{
+	width: 50px;
+}
+
+.track-progress::-webkit-slider-runnable-track{
+	border-radius: 10px;
+}
+
+.track-volume{
+	width: 10%;
+	height: 50px;
+	accent-color: #f2ea66;
+}
+
+input[type='range']{
+	cursor: pointer;
+}
+
+
+.track-current-time{
+	font-style: initial;
+}
+
+
+.fa{
+	cursor: pointer;
+}
+
+.player{
+	position: absolute;
+	bottom: 0;
+}

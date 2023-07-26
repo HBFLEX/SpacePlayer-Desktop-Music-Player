@@ -1,0 +1,25 @@
+{
+  "name": "spaceplayer",
+  "version": "1.0.0",
+  "description": "SpacePlayer is a windows application which supports mp3 audio playing. Developed by Happy Banda (HBFL3X)",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ./app"
+  },
+  "keywords": [
+    "spaceplayer",
+    "audio player",
+    "mp3 player",
+    "happy banda",
+    "hbfl3x",
+    "space-labs-tech"
+  ],
+  "author": "SpaceLabsTech @HBFL3X",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.3.1"
+  },
+  "dependencies": {
+    "fs-props": "^3.2.0"
+  }
+}

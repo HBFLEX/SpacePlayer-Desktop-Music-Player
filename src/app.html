@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SpacePlayer🪐</title>
+	<link rel="stylesheet" type="text/css" href="./static/webfonts/fa-regular-400.woff2">
+	<link rel="stylesheet" type="text/css" href="./static/webfonts/fa-solid-900.woff2">
+	<link rel="stylesheet" type="text/css" href="./static/webfonts/fa-brands-400.woff2">
+
+	<link rel="stylesheet" type="text/css" href="./static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/all.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/main.css">
+
+</head>
+<body class="body">
+
+	<div class="coverImage text-center">
+		<img src="./static/images/alien-tech-logo.gif" class="coverImage" />
+	</div>
+
+	<video autoplay muted loop id="alien-logo">
+		<source src="./static/images/alien-logo.mp4" type="video/mp4">
+	</video>
+
+
+	<footer class="player">
+		<div class="controls">
+			<button class="prevBtn player-control-btn">
+				<i class="fa fa-step-backward fa-2x"></i>
+			</button>
+
+			<button class="playBtn player-control-btn">
+				<i class="fa fa-play-circle fa-3x"></i>
+			</button>
+
+			<button class="nextBtn player-control-btn">
+				<i class="fa fa-step-forward fa-2x"></i>
+			</button>
+
+			<div class="track-current-time">00:00</div>
+			<input type="range" min="0" max="100" value="0" class="track-progress" />
+			<div class="track-duration-time">00:00</div>
+
+			<input type="range" min="0" max="100" value="0" class="track-volume" />
+		</div>
+	</footer>
+
+	<script src="./renderer.js"></script>
+</body>
+</html>

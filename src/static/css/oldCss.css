@@ -1,0 +1,198 @@
+html,
+body{
+	background-color: #302856;
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+	border-radius: 20px;
+	background: linear-gradient(180deg, #302856, #208091);
+}
+
+::-webkit-scrollbar-track{
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #2854ae;
+	border-radius: 10px;
+}
+
+.menu{
+	background: linear-gradient(45deg, #504b48, #208091);
+	height: 100vh;
+}
+
+.menu-header{
+	color: #e7e7e7;
+	font-weight: bolder;
+}
+
+.menuBtn{
+	width: 20rem;
+	height: 4rem;
+	border: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #eee;
+	background-color: #222;
+	border-radius: 5rem;
+	transition: background-color, 1s;
+}
+
+.menuBtn:hover{
+	background-color: #c06012;
+}
+
+.icon{
+	margin-right: 4px;
+}
+
+.playlist-item:hover{
+	cursor: pointer;
+}
+
+.playlist-name{
+	color: #c5cccd;
+	font-size: 23px;
+}
+
+.mainBar{
+	background: linear-gradient(45deg, #302856, #2854ae);
+}
+
+.mainBar-header{
+	color: #eee;
+}
+
+.recently-played-container{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	display: flex;
+	align-items: center;
+	column-gap: 2rem;
+}
+
+.recently-played-item{
+	cursor: pointer;
+}
+
+.recently-played-cover{
+	border-radius: 1rem;
+}
+
+.recently-played-title{
+	color: #eee;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.recently-played-artist{
+	margin-top: 0;
+	color: #bec1c7;
+	margin-left: 5px;
+}
+
+
+.tracklist{
+	height: 274px;
+	border: 1px solid #4b5871;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.track-header{
+	position: sticky;
+	top: 0;
+	background-color: #333;
+	padding: 5px;
+}
+
+.tracklist-header{
+	font-weight: bold;
+	color: lightgray;
+}
+
+.track{
+	display: flex;
+	align-items: center;
+	column-gap: 8rem;
+	text-align: center;
+	width: 700px;
+	border: 1px solid red;
+}
+
+.tracklist-song-art{
+	border-radius: 5px;
+}
+
+.tracklist-song-artist{
+	text-align: center;
+}
+
+.track-no{
+	padding-left: 0.4rem;
+}
+
+.player{
+	display: flex;
+	align-items: center;
+	column-gap: 15px;
+	background: linear-gradient(250deg, #155b87, #543c64);
+}
+
+.player-control-btn{
+	background: transparent;
+	border: none;
+	color: white;
+}
+
+.track-progress{
+	width: 80%;
+	accent-color: #e5a918;
+}
+
+.track-progress::-webkit-slider-thumb{
+	width: 50px;
+}
+
+.track-progress::-webkit-slider-runnable-track{
+	border-radius: 10px;
+}
+
+.track-volume{
+	width: 20%;
+	accent-color: #f2ea66;
+}
+
+input[type='range']{
+	cursor: pointer;
+}
+
+
+.track-current-time{
+	font-style: initial;
+}
+
+.track-total-duration{
+	font-style: initial;
+}
+
+.fa{
+	cursor: pointer;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	color: #f5fcf9;
+	font-size: 12px;
+	left: 3rem;
+	right: 10px;
+}
